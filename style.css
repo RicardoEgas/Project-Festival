@@ -1,0 +1,483 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+#first-page {
+  background-image: url("images/bg-mb.png");
+}
+
+.burger-button {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.menu-line {
+  width: 2.2rem;
+  background-color: black;
+  margin: 0 1.5rem 0.5rem;
+  height: 0.4rem;
+}
+
+.headline {
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+}
+
+.hello {
+  color: #f2551f;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: #f8422a;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.intro-box {
+  border: 2px solid white;
+}
+
+.dates {
+  color: #565656;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+#main-program {
+  color: #f1f0f2;
+  background-color: #3c3f46;
+}
+
+.including {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  margin: 0;
+  position: relative;
+}
+
+.including::before {
+  content: "";
+  position: absolute;
+  width: 5%;
+  height: 1px;
+  bottom: 25%;
+  left: 48%;
+  border-bottom: 1px solid #f2551f;
+}
+
+.include-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 2rem;
+}
+
+.include-list i {
+  font-size: 3rem;
+  color: #f79540;
+}
+
+.offer {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #f2551f;
+}
+
+.purchase-ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+
+.purchase-button {
+  color: white;
+  background-color: #f2551f;
+  width: 70%;
+  min-height: 50%;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+#previous-events {
+  text-align: center;
+  margin: auto 2rem;
+}
+
+.buenosAires {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15rem;
+  background-image:
+    linear-gradient(
+      0deg,
+      rgb(216, 109, 89, 0.7),
+      rgb(216, 109, 89, 0.7)
+    ),
+    url("images/pexels-pixabay-210922.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.warsaw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15rem;
+  background-image:
+    linear-gradient(
+      0deg,
+      rgb(216, 109, 89, 0.7),
+      rgb(216, 109, 89, 0.7)
+    ),
+    url("images/pexels-wendy-wei-2183361.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#sponsors {
+  background-color: #414244;
+  margin-top: 2rem;
+}
+
+.sponsors-title {
+  text-align: center;
+  color: white;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.sponsors-title h3 {
+  font-weight: 400;
+}
+
+.sponsors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  opacity: 30%;
+  font-size: 2.5rem;
+  gap: 1rem;
+}
+
+.sponsors-list h6 {
+  margin: 1.5rem auto;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.footer-rights {
+  margin-top: 1rem;
+}
+
+.footer-rights p {
+  margin: 0 auto;
+}
+
+.header-desk {
+  display: none;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.whole-program {
+  display: none;
+}
+
+.about {
+  text-align: center;
+}
+
+.intro-about {
+  background-color: white;
+  margin: auto 2rem;
+  padding: 1rem;
+  border: 1px solid rgba(166, 164, 164, 0.5);
+}
+
+.contact {
+  text-align: center;
+  padding: 0.5rem 2rem 1.5rem;
+  font-size: 14px;
+}
+
+.logo-section {
+  text-align: center;
+  margin: 1rem 3rem 1rem;
+  border-bottom: 1px solid rgba(166, 164, 164, 0.5);
+}
+
+.email {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.logo-title {
+  margin-bottom: 2rem;
+}
+
+.logo-section img {
+  max-height: 10rem;
+  border: 1px solid rgba(166, 164, 164, 0.5);
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav-bar.active {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.nav-bar.active .logo {
+  position: absolute;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  top: 0;
+  left: 0;
+}
+
+.nav-bar.active .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar.active .nav-list {
+  list-style-type: none;
+  line-height: 3;
+  padding-top: 5rem;
+}
+
+.nav-bar.active .nav-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.nav-bar .nav-list .nav-item a:hover {
+  color: #f2551f;
+}
+
+header.active .burger-button > div:nth-child(2) {
+  visibility: hidden;
+}
+
+header.active .burger-button > div:nth-child(1) {
+  transform: translateY(14px) rotate(45deg);
+}
+
+header.active .burger-button > div:nth-child(3) {
+  transform: translateY(-14px) rotate(-45deg);
+}
+
+.lineup {
+  display: flex;
+}
+
+.band-image {
+  max-width: 10rem;
+  height: 10rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.band {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+}
+
+.nameBand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.genreBand {
+  color: #f2551f;
+  font-style: italic;
+  margin: 1rem auto;
+}
+
+.feat-artists {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+}
+
+.feat-artists::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: -10%;
+  left: 46%;
+  border-bottom: 1px solid #f2551f;
+}
+
+/* Desktop version */
+
+@media (min-width: 768px) {
+  .burger-button {
+    display: none;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: end;
+    background-color: #3e3e3e;
+    list-style-type: none;
+    color: white;
+    gap: 1rem;
+    margin: 0;
+    padding-right: 10rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    box-shadow: 5px 5px 50px #888;
+  }
+
+  .logo img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    padding-right: 5rem;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: #3e3e3e;
+  }
+
+  .nav-item a:hover {
+    color: #f2551f;
+  }
+
+  .headline {
+    margin: 3rem 20rem 0 10rem;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .include-container {
+    display: flex;
+    gap: 0.1rem;
+    margin: auto 7rem;
+    font-size: 14px;
+  }
+
+  .include-list {
+    flex-direction: column;
+  }
+
+  .purchase-ticket {
+    display: none;
+  }
+
+  .whole-program {
+    text-align: center;
+    padding: 4rem 0;
+  }
+
+  .program-link {
+    color: white;
+  }
+
+  .sponsors-list {
+    gap: 0;
+  }
+
+  .sponsors-list h6 {
+    margin: auto 1rem;
+  }
+
+  .about {
+    margin: 2rem 20rem 6rem;
+  }
+
+  .logo-title {
+    margin-top: 2rem;
+  }
+
+  .logo-section img {
+    width: 30%;
+  }
+
+  .events-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .buenosAires {
+    width: 30%;
+  }
+
+  .warsaw {
+    width: 30%;
+  }
+
+  #footer-section {
+    background-color: #2e2e2e;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  #featured-bands {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .feat-artists {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  .lineup {
+    width: 50%;
+    padding-top: 5rem;
+  }
+
+  .band {
+    float: left;
+  }
+}
