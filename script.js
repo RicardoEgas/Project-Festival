@@ -74,6 +74,7 @@ lineup.insertAdjacentHTML('afterbegin', '<h2 class="feat-artists">Featured Artis
 for (let i = 0; i < band.length; i += 1) {
   lineup.insertAdjacentHTML('beforeend', `
     <div class="lineup">
+    <img src="https://www.pngall.com/wp-content/uploads/5/Vector-Square-Shape-PNG-Picture.png" class="square-image" alt=""></img>
     <img src="${image[i]}" class="band-image" alt=""></img>
     <ul class="band">
     <li class="nameBand">${name[i]}</li>

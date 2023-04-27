@@ -32,7 +32,13 @@ body {
 }
 
 .title {
-  color: #f8422a;
+  background-image: url('https://u7.uidownload.com/vector/5/861/vector-red-and-orange-wave-background-template-vector-eps-ai.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: center center;
+  background-color: #b50000;
+  color: transparent;
+  background-size: cover;
   font-weight: 900;
   font-size: 3rem;
   margin-top: 0;
@@ -51,6 +57,9 @@ body {
 #main-program {
   color: #f1f0f2;
   background-color: #3c3f46;
+  background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9)), url('https://i.etsystatic.com/18154652/r/il/9f1dd7/1694389520/il_570xN.1694389520_4p2x.jpg');
+  background-size: 1.5rem;
+  background-repeat: repeat;
 }
 
 .including {
@@ -64,10 +73,10 @@ body {
 .including::before {
   content: "";
   position: absolute;
-  width: 5%;
+  width: 1%;
   height: 1px;
   bottom: 25%;
-  left: 48%;
+  left: 50%;
   border-bottom: 1px solid #f2551f;
 }
 
@@ -75,9 +84,11 @@ body {
   display: flex;
   align-items: center;
   list-style-type: none;
-  gap: 1.5rem;
+  gap: 1rem;
   background: rgba(255, 255, 255, 0.1);
   padding: 2rem 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .include-list i {
@@ -150,6 +161,8 @@ body {
 #sponsors {
   background-color: #414244;
   margin-top: 2rem;
+  padding-bottom: 3rem;
+  line-height: 2;
 }
 
 .sponsors-title {
@@ -300,13 +313,23 @@ header.active .burger-button > div:nth-child(3) {
 
 .lineup {
   display: flex;
+  position: relative;
 }
 
 .band-image {
   max-width: 10rem;
   height: 10rem;
-  padding-left: 1rem;
-  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  border-radius: 10px 100px / 120px;
+}
+
+.square-image {
+  max-width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 
 .band {
@@ -341,11 +364,19 @@ header.active .burger-button > div:nth-child(3) {
   border-bottom: 1px solid #f2551f;
 }
 
+#footer-desktop {
+  display: none;
+}
+
 /* Desktop version */
 
 @media (min-width: 768px) {
   .burger-button {
     display: none;
+  }
+
+  .header-desk {
+    display: block;
   }
 
   .top-bar {
@@ -398,13 +429,15 @@ header.active .burger-button > div:nth-child(3) {
 
   .include-container {
     display: flex;
-    gap: 0.1rem;
+    gap: 0.3rem;
     margin: auto 7rem;
     font-size: 14px;
+    padding-bottom: 2rem;
   }
 
   .include-list {
     flex-direction: column;
+    margin: 0;
   }
 
   .purchase-ticket {
@@ -464,6 +497,7 @@ header.active .burger-button > div:nth-child(3) {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin: auto 10rem;
   }
 
   .feat-artists {
@@ -479,5 +513,19 @@ header.active .burger-button > div:nth-child(3) {
 
   .band {
     float: left;
+  }
+
+  #footer-desktop {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    margin: 0 2rem;
+  }
+
+  .campaign {
+    color: #f2551f;
+    border: 5px solid #f2551f;
+    padding: 1rem;
+    margin-left: 1rem;
   }
 }
