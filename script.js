@@ -24,38 +24,38 @@ const band = [
     name: 'Kendrick Lamar',
     genre: 'Hip hop/ progressive rap/ West Coast hip hop/ conscious hip hop/ jazz rap',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'images/Kendrick Lamar.jpg',
+    image: 'images/kendrick_1.jpg',
   },
   {
     name: 'The Prodigy',
     genre: 'Big beat/ electropunk/ alternative dance/ electronic rock',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'images/The Prodigy.jpeg',
+    image: 'images/the-prodigy.jpeg',
   },
   {
     name: 'Tame Impala',
     genre: 'Psychedelic pop/ psychedelic rock/ indie rock/ synth-pop/ neo-psychedelia',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'images/Tame Impala.jpeg',
+    image: 'images/tame_impala.jpg',
 
   },
   {
     name: 'ThunderCat',
     genre: ' Funk/ progressive R&B/ soul/ Hip Hop Soul/ Neo Soul/ electronica/ acid jazz',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'images/Thundercat.jpeg',
+    image: 'images/thundercat.jpg',
   },
   {
     name: 'Slipknot',
     genre: 'Nu metal/ alternative metal/ groove metal/ heavy metal/ hard rock',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'images/Slipknot.jpg',
+    image: 'images/slipknot.jpg',
   },
   {
     name: 'Bad Religion',
     genre: 'Hardcore punk/ melodic hardcore/ skate punk/ punk rock',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'images/Bad Religion.jpeg',
+    image: 'images/Bad-Religion.jpg',
   },
 ];
 
