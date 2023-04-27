@@ -105,7 +105,7 @@ This is the Microverse capstone project for module 1 and consists in building up
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="https://ricardoegas.github.io/Project-Festival/"></a>
 ## 🚀 Intro video <a name="https://www.loom.com/share/04900f0c391049fdb4b41bc5eb4dcee3"></a>
 
 
