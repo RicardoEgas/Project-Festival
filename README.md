@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [My Porfolio] <a name="about-project"></a>
 
 
-This is the Microverse capstone project for module 1 and consists in building up 2 responsive website pages from scratch, modeling a different website design. The original´s main theme was about a conference summit, but I changed mine to a music festival one. I tried to stay loyal to the model whilst giving my own twist.
+This is the Microverse capstone project for module 1 and consists in building up 2 responsive website pages from scratch, modeling a different website design. The original´s main theme was about a conference summit, but I changed mine to a music festival one. I tried to stay loyal to the model whilst giving my own twist!
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
