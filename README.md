@@ -106,15 +106,14 @@ This is the Microverse capstone project for module 1 and consists in building up
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo 
-<a name="Live_demo"></a>
-- [https://ricardoegas.github.io/Project-Festival/]()
+
+[Demo](https://ricardoegas.github.io/Project-Festival/)
 
 ## 🚀 Intro video
 <a name="Intro_video"></a>
- [https://www.loom.com/share/04900f0c391049fdb4b41bc5eb4dcee3]()
 
+[Video](https://www.loom.com/share/04900f0c391049fdb4b41bc5eb4dcee3)
 
-- [Coming Soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
