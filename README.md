@@ -112,7 +112,7 @@ This is the Microverse capstone project for module 1 and consists in building up
 ## 🚀 Intro video
 <a name="Intro_video"></a>
 
-[Video](https://www.loom.com/share/20f87c61c0da483083821247ff0a6ee1)
+[Video](https://www.loom.com/share/86407721deb940ee8eee57a7f21c1e6b)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

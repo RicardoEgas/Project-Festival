@@ -172,6 +172,7 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   position: relative;
+  opacity: 50%;
 }
 
 .sponsors-title::before {
