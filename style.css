@@ -170,12 +170,19 @@ body {
   color: white;
   padding-top: 1.5rem;
   font-size: 1.5rem;
-}
-
-.sponsors-title h3 {
   font-weight: 400;
+  position: relative;
 }
 
+.sponsors-title::before {
+  content: "";
+  position: absolute;
+  width: 1%;
+  height: 1px;
+  bottom: 0;
+  left: 49%;
+  border-bottom: 1px solid #f2551f;
+}
 .sponsors-list {
   display: flex;
   flex-wrap: wrap;
@@ -503,7 +510,8 @@ header.active .burger-button > div:nth-child(3) {
   .feat-artists {
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 40%;
+    margin-bottom: 1rem;
   }
 
   .lineup {
